@@ -21,6 +21,8 @@ public class DialogueManager : MonoBehaviour
     private Coroutine typingCoroutine;
     private bool isTyping = false;
     private bool skipTyping = false;
+    public DialogueSO CurrentDialogue => currentDialogue;
+
 
     [Header("Typing Settings")]
     [Tooltip("Waktu delay per karakter untuk efek ketik")]
