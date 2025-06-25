@@ -151,7 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39290e1da6685224cbf94253fe9c89d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingDialogue: {fileID: 11400000, guid: 88c09b7a461430148b1a431908dc5d7d, type: 2}
+  conversations: []
+  currentConversation: {fileID: 11400000, guid: 88c09b7a461430148b1a431908dc5d7d, type: 2}
+  autoStart: 1
   startDelay: 1.5
 --- !u!4 &3575937
 Transform:
@@ -6926,6 +6928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FollowSpeed: 2
   target: {fileID: 1064061146}
+  xOffset: 0
   yOffset: 2.4
 --- !u!81 &2042001270
 AudioListener:
