@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
+  m_Name: DL1S3 M1 1
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: Kerajaan ini dulu hidup dalam damai. Tapi saat Raja jatuh sakit, rakyat
+      mulai mencari kambing hitam.
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: "Dua kelompok\u2014dataran rendah dan pegunungan\u2014saling curiga dan
+      menyalahkan."
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Dan batik Sekar Jagad... itu apa hubungannya?
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: Sekar Jagad bukan kutukan.
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: Ia adalah lambang.
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: "Tiap pola dan warna menggambarkan keberagaman kita\u2014satu kain, banyak
+      cerita."
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: Sayangnya, kini orang lebih percaya pada prasangka daripada makna.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Batik Sekar Jagad ya...? Tapi bukannya... itu batik yang pernah dipajang
+      di Museum Batik?
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: "Betul. Dan dalam catatan waktu\u2026 batik itu tiba-tiba menghilang tanpa
+      jejak."
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Jadi, kamu pikir\u2026 hilangnya Batik Sekar Jagad adalah sumber masalah
+      di desa ini?"
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: 'Ada kemungkinan besar. Batik itu bukan kain biasa, Maya. '
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Oke, sekarang kamu mulai terdengar seperti buku mistis di film-film.
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: Tapi lihat sekelilingmu. Ini bukan film, Maya. Ini nyata.
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: "Dan kalau batik itu tidak kembali\u2026 dunia bisa berubah selamanya."
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Jadi\u2026 kita harus cari batik itu?"
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: "Dan mengembalikannya ke tempat asalnya\u2026 sebelum semuanya terlambat."
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Apakah ada solusinya, Nek? Dari semua kekacauan ini?
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: "Mungkin\u2026 kita bisa membuat kembali batik itu, Nak."
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: Membuat ulang Batik Sekar Jagad? Tapi... apakah itu cukup?
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: "Keadaan akan membaik\u2026 jika seluruh warga juga mengerti makna dari
+      batik itu. "
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: Bukan hanya coraknya, tapi pesan yang dibawanya.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Kalau begitu, aku ingin membantu. Kita harus membuat ulang batik itu. Kita
+      harus menyampaikan makna sebenarnya
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: Boleh, Nak. Tapi kita butuh bahan. Malam, canting, pewarna... Sebagian
+      ada di hutan
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Apa pun itu, kami akan mencobanya. Demi desa ini\u2026 dan masa depan."
+  options: []
+  requiredNPCs: []

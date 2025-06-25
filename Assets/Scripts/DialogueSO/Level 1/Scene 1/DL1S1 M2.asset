@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
+  m_Name: DL1S1 M2
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 2e2281c204aae274191cea4935762c90, type: 2}
+    text: Sudah kubilang, kerbaumu jangan diikat di dekat sumur! Airnya jadi bau!
+  - speaker: {fileID: 11400000, guid: 84752eeef9faaf543a7ce084d4e3e79b, type: 2}
+    text: Lho, situ yang naruh jemuran nutup jalan, siapa suruh?! Kerbauku nggak
+      salah apa-apa!
+  - speaker: {fileID: 11400000, guid: 2e2281c204aae274191cea4935762c90, type: 2}
+    text: Lha wong sumur itu buat umum, bukan buat rendam kaki kerbaumu!
+  - speaker: {fileID: 11400000, guid: 84752eeef9faaf543a7ce084d4e3e79b, type: 2}
+    text: Sumur umum, ya artinya buat siapa aja, termasuk kerbauku!
+  - speaker: {fileID: 11400000, guid: 90dbaa395bba08d468c6b05835cfb063, type: 2}
+    text: Hei! Siapa yang nyuri tempe dari gentongku?! Aku tahu bentuk irisannya,
+      loh!
+  - speaker: {fileID: 11400000, guid: d4dd96860906f6d42b51b35e93d4b584, type: 2}
+    text: Ibu ini nuduh sembarangan! Saya cuma ambil satu... buat tester!
+  - speaker: {fileID: 11400000, guid: 90dbaa395bba08d468c6b05835cfb063, type: 2}
+    text: Tester katanya! Itu gentongku hampir kosong sekarang!
+  - speaker: {fileID: 11400000, guid: 2e2281c204aae274191cea4935762c90, type: 2}
+    text: Mau kau coba coba aku ha?! Mau?! Sini kau!
+  - speaker: {fileID: 11400000, guid: 84752eeef9faaf543a7ce084d4e3e79b, type: 2}
+    text: Ayo sini kalau berani!
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Buku, apa yang sebenarnya terjadi di sini? Kenapa semua orang seperti...
+      kacau?
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: Aku tidak tau maya bagaimana kalau kita coba cari tau
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: Tapi sepertinya ada yang salah dengan alur waktu di desa ini.
+  - speaker: {fileID: 11400000, guid: 2be803acecf1f2e488a4168392d2601c, type: 2}
+    text: Jadi... kita ngapain? Nonton dari jauh sambil makan popcorn?
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: Heh, lucu. Tapi tidak. Kita harus cari tahu sumber masalahnya
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Kau menyuruhku masuk ke tengah-tengah keributan itu?
+  - speaker: {fileID: 11400000, guid: c485307efcc7a9143b9a54550c569932, type: 2}
+    text: Yah, kalau kita ingin memperbaiki masa lalu... kita harus ikut masuk ke
+      dalamnya.
+  options:
+  - optionText: Uhh... baiklah
+    nextDialogue: {fileID: 11400000, guid: 8402296fc359f69429b8b1360e0bdc98, type: 2}
+  - optionText: Tapi... kalau kita malah dimarahi gimana?
+    nextDialogue: {fileID: 11400000, guid: df0e687451984024ba62b4d15c32a3a5, type: 2}
+  requiredNPCs: []

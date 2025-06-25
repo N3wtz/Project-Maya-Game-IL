@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
+  m_Name: DL1S3 M1
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: fdb8acb9399b86047b7ea5b2ebb46b22, type: 2}
+    text: Tenang, Nak... mereka tak akan mencarimu sampai ke sini.
+  options:
+  - optionText: Terima kasih, Nek...
+    nextDialogue: {fileID: 11400000, guid: 3d63b36b7efecf04aa19042465f8c6c0, type: 2}
+  - optionText: Hantu??
+    nextDialogue: {fileID: 11400000, guid: 1afa7dc1c95a07847b10a74bb81e30da, type: 2}
+  requiredNPCs: []
