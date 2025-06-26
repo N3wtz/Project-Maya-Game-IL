@@ -250,7 +250,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mayaRb: {fileID: 428322872}
   speed: 8.5
-  input: 0
   spriteRenderer: {fileID: 428322870}
 --- !u!61 &428322875
 BoxCollider2D:
@@ -288,7 +287,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.94, y: 1.94}
+    oldSize: {x: 0.74603176, y: 1.5396825}
     newSize: {x: 0.94, y: 1.94}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -308,7 +307,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -390,21 +388,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea590102a7d934a43a913793afe7569c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FollowSpeed: 2
-  target: {fileID: 428322871}
-  yOffset: 2.4
 --- !u!1 &783954488
 GameObject:
   m_ObjectHideFlags: 0

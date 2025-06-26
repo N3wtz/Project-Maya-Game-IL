@@ -2585,7 +2585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalDialogueToCheck: {fileID: 11400000, guid: eb47d1094a787494883a9c8a95cbc64a, type: 2}
-  sceneToLoad: L1 Scene 0
+  sceneToLoad: L1 Scene 4
   delayBeforeLoad: 1
 --- !u!4 &2059917323
 Transform:
