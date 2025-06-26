@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b14e23a1e98f3e44589cc317d4e51aad
+guid: 8b256aca2e67e934c89f11c036c12df1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,56 +93,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asset rumah ditengah hutan_0
+      name: alat alat batik (1)_0
       rect:
         serializedVersion: 2
-        x: 462
-        y: 694
-        width: 227
-        height: 138
+        x: 295
+        y: 561
+        width: 207
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d366eb14b4947e64e9db9ecec8e1ccca
-      internalID: 608375080
+      spriteID: 23dece4855e1be341bf8591326da0fb3
+      internalID: -383721320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset rumah ditengah hutan_1
+      name: alat alat batik (1)_1
       rect:
         serializedVersion: 2
-        x: 761
-        y: 685
-        width: 214
-        height: 215
+        x: 658
+        y: 559
+        width: 207
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ff1d467b570dc64cbe7924ac4652dc8
-      internalID: -16254509
+      spriteID: 3d21985f1ff7ec24a80b2285032b9884
+      internalID: 1504420740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset rumah ditengah hutan_2
+      name: alat alat batik (1)_2
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 701
-        width: 254
-        height: 102
+        x: 1024
+        y: 571
+        width: 183
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe4434e4c69bc0d48a4053d44edfc1a4
-      internalID: 157590731
+      spriteID: d4daa31b746e65c42803e0536eff89df
+      internalID: 1718285858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset rumah ditengah hutan_3
+      name: alat alat batik (1)_3
       rect:
         serializedVersion: 2
-        x: 468
-        y: 486
-        width: 230
-        height: 103
+        x: 1381
+        y: 549
+        width: 83
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5876a1d3a2a432349ae4a5c3fe7c6191
-      internalID: 814874977
+      spriteID: 935637fe4d6f0b441890e651c371818a
+      internalID: 1450518000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset rumah ditengah hutan_4
+      name: alat alat batik (1)_4
       rect:
         serializedVersion: 2
-        x: 760
-        y: 382
-        width: 224
-        height: 242
+        x: 1595
+        y: 538
+        width: 149
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ead71322ced07a747afb3e2a24e7238e
-      internalID: -471437165
+      spriteID: 35e92d9e08e997a4d8f5e6d8e7679d6c
+      internalID: 75934576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asset rumah ditengah hutan_5
+      name: alat alat batik (1)_5
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 453
-        width: 113
-        height: 47
+        x: 283
+        y: 372
+        width: 179
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,8 +216,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2add4b4d4af58f84eae5b235e81ef7d9
-      internalID: 1391597318
+      spriteID: 675e797abddc50c47a5dff11b99e5316
+      internalID: -653324139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alat alat batik (1)_6
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 389
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8284057a9f63a534aafbc0fa049635e2
+      internalID: 1785134315
       vertices: []
       indices: 
       edges: []
@@ -272,12 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      asset rumah ditengah hutan_0: 608375080
-      asset rumah ditengah hutan_1: -16254509
-      asset rumah ditengah hutan_2: 157590731
-      asset rumah ditengah hutan_3: 814874977
-      asset rumah ditengah hutan_4: -471437165
-      asset rumah ditengah hutan_5: 1391597318
+      alat alat batik (1)_0: -383721320
+      alat alat batik (1)_1: 1504420740
+      alat alat batik (1)_2: 1718285858
+      alat alat batik (1)_3: 1450518000
+      alat alat batik (1)_4: 75934576
+      alat alat batik (1)_5: -653324139
+      alat alat batik (1)_6: 1785134315
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
