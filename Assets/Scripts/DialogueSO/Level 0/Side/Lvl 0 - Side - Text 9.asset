@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: Lvl 0 - Side - Text 9
   m_EditorClassIdentifier: 
   lines:
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: Terbuat dari kayu ulin yang sangat kuat
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: Tongkat ini digunakan dalam ritual penyembuhan dan komunikasi dengan roh
       leluhur.
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: Konon, hanya mereka yang terpilih secara spiritual yang bisa menggenggam
       tongkat ini tanpa mengalami mimpi buruk.
+  options: []
+  requiredNPCs: []
