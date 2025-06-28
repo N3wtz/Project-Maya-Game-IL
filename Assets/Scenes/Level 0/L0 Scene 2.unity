@@ -5249,6 +5249,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 380871547516032973, guid: f159ab58a013b184ab801c077c981705, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3264056564117906376, guid: f159ab58a013b184ab801c077c981705, type: 3}
       propertyPath: m_Name
       value: Maya
@@ -5314,11 +5318,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f159ab58a013b184ab801c077c981705, type: 3}
---- !u!4 &1064061146 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6365867850546077204, guid: f159ab58a013b184ab801c077c981705, type: 3}
-  m_PrefabInstance: {fileID: 1064061145}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1073642059
 GameObject:
   m_ObjectHideFlags: 0
@@ -7619,7 +7618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mayaRb: {fileID: 1568998809}
-  speed: 8.5
+  speed: 3
   spriteRenderer: {fileID: 1568998810}
 --- !u!50 &1568998809
 Rigidbody2D:
@@ -7644,7 +7643,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
@@ -9555,7 +9554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FollowSpeed: 2
-  target: {fileID: 1064061146}
+  target: {fileID: 1568998811}
   xOffset: 0
   yOffset: 2.4
 --- !u!81 &2042001270
