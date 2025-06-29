@@ -13,7 +13,36 @@ MonoBehaviour:
   m_Name: MairaTalk1
   m_EditorClassIdentifier: 
   lines:
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Maira..
   - speaker: {fileID: 11400000, guid: 2be803acecf1f2e488a4168392d2601c, type: 2}
-    text: may coba cari buku
+    text: eh iya.. Maya
+  - speaker: {fileID: 11400000, guid: 2be803acecf1f2e488a4168392d2601c, type: 2}
+    text: ada apa May?
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: kamu tadi dateng kesini lebih awal kan?
+  - speaker: {fileID: 11400000, guid: 2be803acecf1f2e488a4168392d2601c, type: 2}
+    text: i-iya..
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: kamu udah sempet liat benda-benda yang disitu belum?
+  - speaker: {fileID: 11400000, guid: 2be803acecf1f2e488a4168392d2601c, type: 2}
+    text: ohh..
+  - speaker: {fileID: 11400000, guid: 2be803acecf1f2e488a4168392d2601c, type: 2}
+    text: dari awal aku dateng emang udah kosong sih May..
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: oh oke
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: aku penasaran banget sama wujud benda-bendanya
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: sekarang aku mau nyari buku-buku yang punya informasi dari benda-benda
+      yang ada dimuseum
+  - speaker: {fileID: 11400000, guid: 2be803acecf1f2e488a4168392d2601c, type: 2}
+    text: kamu coba lurus ke ujung sana, tadi aku sepertinya lihat beberapa rak buku
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: ohh.. oke deh. makasi ya Maira
+  - speaker: {fileID: 11400000, guid: 2be803acecf1f2e488a4168392d2601c, type: 2}
+    text: oke, hati-hati May
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: (kok dia bilang hati-hati?)
   options: []
   requiredNPCs: []

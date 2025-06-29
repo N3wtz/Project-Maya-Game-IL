@@ -10,22 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
-  m_Name: Lvl 0 Teks 4
+  m_Name: Lvl 0 Teks 4.1
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Eh?
+    text: ini dia buku-bukunya
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Ini buku apa, ya?
+    text: hmm..
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Kok beda sendiri dari yang lain?
+    text: petunjuk pengunjung..
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Kelihatan banget ini buku tua, dari sampulnya aja udah khas.
+    text: peraturan..
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Jangan-jangan ini salah satu benda koleksi juga?
+    text: majalah museum..
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Tapi kenapa ditaruh di sini, nggak di dalam etalase?
+    text: tidak ada disini
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: "Aku jadi makin penasaran\u2026 isinya tentang apa, ya?"
+    text: coba cari di rak yang satunya
   options: []
-  requiredNPCs: []
+  requiredNPCs:
+  - {fileID: 11400000, guid: 2be803acecf1f2e488a4168392d2601c, type: 2}
