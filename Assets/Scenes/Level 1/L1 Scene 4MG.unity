@@ -215,9 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   conversations:
   - {fileID: 0}
-  currentConversation: {fileID: 11400000, guid: 6940857b37d20c5428c7f1ccd8572edb, type: 2}
+  currentConversation: {fileID: 0}
   autoStart: 1
-  startDelay: 5
+  startDelay: 3
 --- !u!4 &220186713
 Transform:
   m_ObjectHideFlags: 0
@@ -984,7 +984,6 @@ GameObject:
   - component: {fileID: 732714500}
   - component: {fileID: 732714499}
   - component: {fileID: 732714498}
-  - component: {fileID: 732714501}
   m_Layer: 0
   m_Name: Nenek
   m_TagString: Untagged
@@ -1002,7 +1001,7 @@ Animator:
   m_GameObject: {fileID: 732714497}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b7b48e6effd1319479be730b308cc3f2, type: 2}
+  m_Controller: {fileID: 9100000, guid: aa96c26750b34cb47997a695bacf1281, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1054,9 +1053,9 @@ SpriteRenderer:
   m_SortingLayerID: -1688513241
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1379189915, guid: 8f00373e8994b5544b1828d7fec111ea, type: 3}
+  m_Sprite: {fileID: 1646081505, guid: 0aca0f58502750b4a8893869e124a80c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.56, y: 2.56}
@@ -1074,31 +1073,12 @@ Transform:
   m_GameObject: {fileID: 732714497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.08, y: -2.1, z: 0}
+  m_LocalPosition: {x: 2.03, y: -1.93, z: 0}
   m_LocalScale: {x: 2.6, y: 2.6, z: 2.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!320 &732714501
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732714497}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 5c1166a650c0edd4894eb3a29fdb53ec, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 8225387495666224160, guid: 5c1166a650c0edd4894eb3a29fdb53ec, type: 2}
-    value: {fileID: 732714498}
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &783954488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1181,7 +1161,6 @@ GameObject:
   - component: {fileID: 783958118}
   - component: {fileID: 783958117}
   - component: {fileID: 783958116}
-  - component: {fileID: 783958122}
   m_Layer: 0
   m_Name: Maya New
   m_TagString: Untagged
@@ -1199,7 +1178,7 @@ Animator:
   m_GameObject: {fileID: 783958115}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1cf53198feba2e9438f001caf0cce820, type: 2}
+  m_Controller: {fileID: 9100000, guid: a64509bc0962fb147820ccd0b0a8ed38, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1338,7 +1317,7 @@ SpriteRenderer:
   m_SortingLayerID: -1688513241
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: -884014504, guid: b7f3f561cf353da4aa23b0ebf81ba7bf, type: 3}
+  m_Sprite: {fileID: -666243961, guid: 52139a69650eb784ea0c59b976051508, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1358,31 +1337,12 @@ Transform:
   m_GameObject: {fileID: 783958115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.47, y: -1.98, z: 0}
+  m_LocalPosition: {x: -2.32, y: -1.98, z: 0}
   m_LocalScale: {x: 2.6, y: 2.6, z: 2.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!320 &783958122
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783958115}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 455038af2358d264c9b3bf347b22301d, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -7277106814494513944, guid: 455038af2358d264c9b3bf347b22301d, type: 2}
-    value: {fileID: 783958116}
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &881822800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3074,8 +3034,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de24d9a0ea67c3747b9a515ce3b2b253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalDialogueToCheck: {fileID: 11400000, guid: 6940857b37d20c5428c7f1ccd8572edb, type: 2}
-  sceneToLoad: L1 Scene 4MG
+  finalDialogueToCheck: {fileID: 0}
+  sceneToLoad: 
   delayBeforeLoad: 1
 --- !u!4 &2021304837
 Transform:

@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: caef5951165dd9d4f9513283f5af13de, type: 2}
-    text: Dua
+    text: warna penyangga kainnya mirip seperti pohon, hampir tidak terlihat..
+  - speaker: {fileID: 11400000, guid: caef5951165dd9d4f9513283f5af13de, type: 2}
+    text: baiklah, semua barang telah di kumpulkan..
+  - speaker: {fileID: 11400000, guid: caef5951165dd9d4f9513283f5af13de, type: 2}
+    text: waktunya kembali ke nenek
   options: []
   requiredNPCs: []
