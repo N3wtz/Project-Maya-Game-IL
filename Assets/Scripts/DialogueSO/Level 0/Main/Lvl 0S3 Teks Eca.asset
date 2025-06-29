@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
+  m_Name: Lvl 0S3 Teks Eca
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Ca.. temenin aku yuk
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: hah? temenin kemana?
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: cara buku informasi dari barang-barang dimuseum ini..
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: tiba-tiba banget kamu..
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: males ah.. cari sendiri aja
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: aku masi mau liat guci-guci ini
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: guci, guci, dan guci.. semua orang pengen liat guci..
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: yauda aku cari sendiri aja
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: eh.. Maya tunggu..
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: tadi aku liat ada Maira, dia kayanya udah dateng dari sebelum kita
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: 'coba kamu tanya dia, dia kan dari tadi udah jalan-jalan di museum ini. '
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: mungkin dia tau buku yang kamu cari
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: ah iya, tadi aku papasan sama dia si
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: yauda aku samperin dia dulu
+  options: []
+  requiredNPCs: []
