@@ -575,7 +575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de24d9a0ea67c3747b9a515ce3b2b253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalDialogueToCheck: {fileID: 0}
+  finalDialogueToCheck: {fileID: 11400000, guid: d5c5a77a5914ce04a97ed219006f97cd, type: 2}
   sceneToLoad: L1 Scene 1R
   delayBeforeLoad: 1
 --- !u!4 &72307041
