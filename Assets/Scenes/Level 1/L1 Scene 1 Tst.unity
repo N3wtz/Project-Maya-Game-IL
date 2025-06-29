@@ -2276,7 +2276,7 @@ Animator:
   m_GameObject: {fileID: 268629372}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1cf53198feba2e9438f001caf0cce820, type: 2}
+  m_Controller: {fileID: 9100000, guid: 74a4130bb50a9d44db7a818416777631, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2345,7 +2345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mayaRb: {fileID: 268629376}
-  speed: 8
+  speed: 6
   spriteRenderer: {fileID: 268629377}
 --- !u!50 &268629376
 Rigidbody2D:
