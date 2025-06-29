@@ -19,7 +19,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: Kilau emasnya mencerminkan status dan kehormatan. Setiap helai ditenun
       dengan doa dan harapan akan kejayaan.
-  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: Ini harusnya tempat kain songket ya...
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: Tapi kosong. Aneh, apa kain semewah itu bisa hilang begitu aja?

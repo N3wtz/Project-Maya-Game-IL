@@ -19,8 +19,9 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: Biasanya dikenakan dalam upacara adat dan tari perang.
   - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
-    text: "Yang bener aja\u2026 topi cenderawasih juga hilang?!"
+    text: Sebuah topi?
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Ini sih udah bukan museum lagi... kayak tempat misteri!
+    text: Kalo ini sih gampang banget dicuri orang. tapi gamungkin lah mencuri ditempat
+      kaya gini
   options: []
   requiredNPCs: []

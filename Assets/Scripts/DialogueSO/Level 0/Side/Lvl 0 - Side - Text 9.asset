@@ -14,12 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
-    text: Terbuat dari kayu ulin yang sangat kuat
+    text: Alat musik tradisional Jawa Barat yang terbuat dari bambu yang dimainkan
+      dengan cara digoyangkan dan dipantulkan.
   - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
-    text: Tongkat ini digunakan dalam ritual penyembuhan dan komunikasi dengan roh
-      leluhur.
-  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
-    text: Konon, hanya mereka yang terpilih secara spiritual yang bisa menggenggam
-      tongkat ini tanpa mengalami mimpi buruk.
+    text: Dahulu pernah dipakai sebagai sarana ritual pemujaan dan pemacu semangat
+      dalam perang.
   options: []
   requiredNPCs: []

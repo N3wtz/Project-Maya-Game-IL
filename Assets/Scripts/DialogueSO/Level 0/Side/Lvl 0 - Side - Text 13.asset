@@ -22,7 +22,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: Sekarang giliran badik yang nggak ada.
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Seriusan nih museum? Masa bisa segini banyak koleksi hilang?
+    text: Seriusan nih museum? kalo sebanyak ini sih apa yang mau dipamerin?
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: Apa sudah dijual semua?
   options: []

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 18adbe458d082f545adde98a2f8ebd73
+guid: c9152363e85b77945bb0d278cae5e464
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -93,56 +93,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bubble chat-Idle_0
+      name: Next_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +111,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f64ed2d4131dc4a90c962b1ea15731
-      internalID: 701113951
+      spriteID: d4a92286687649841a9d1854731a1179
+      internalID: 1105969453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bubble chat-Idle_1
+      name: Next_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3540ce20f21e7094389aa64e59d58c39
+      internalID: 1439412714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346b33a78836d714bae8e21a45d5c651
+      internalID: 856828860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3599af9c7c7692b48bf8bcc77db90a1a
+      internalID: 491507647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next_4
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 256
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +195,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5541f5488a20f9542b23e0162da68320
-      internalID: -126028935
+      spriteID: c0067cc6971422f44b64ff0778cb0ad2
+      internalID: -1807429738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bubble chat-Idle_2
+      name: Next_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a795edc4b03e34da316a3bea09cd77
+      internalID: 2090643451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a518dda54e90f9f4f8235ded72eb7a5e
+      internalID: 430170650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ca82fde6657c54eb38c66a62cd3560
+      internalID: 1728220225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next_8
       rect:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 256
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aedf23a07d0aa3b45bd1fbbf037820b0
-      internalID: 1007634308
+      spriteID: ed146404ab1e7f340a2942bd37614f08
+      internalID: 1606449423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bubble chat-Idle_3
+      name: Next_9
       rect:
         serializedVersion: 2
-        x: 768
+        x: 576
         y: 0
-        width: 256
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +300,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53c5ed80e8d22f64c929b29b02f3db3d
-      internalID: 378193731
+      spriteID: 405c98b674af0174ab3697b2462a3093
+      internalID: -1425173011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bubble chat-Idle_4
+      name: Next_10
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 640
         y: 0
-        width: 256
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cefed6d3e7fce34c86b053f3f4ad934
-      internalID: -1201420122
+      spriteID: 378d83da30b66af46b567e9abf5b1a7b
+      internalID: -276976463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bubble chat-Idle_5
+      name: Next_11
       rect:
         serializedVersion: 2
-        x: 1280
+        x: 704
         y: 0
-        width: 256
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,134 +342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99b4676edc4e2af40b1353be497a4ac3
-      internalID: -1691459348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bubble chat-Idle_6
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17aa1b7a1e86978459f7bcf77c0eed70
-      internalID: -745111774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bubble chat-Idle_7
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0df9838eed482a24a82b9b8124796111
-      internalID: 37694478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bubble chat-Idle_8
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d6f7b9d933a9a34fa18d1853ae82b4a
-      internalID: -1667470117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bubble chat-Idle_9
-      rect:
-        serializedVersion: 2
-        x: 2304
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90d25652916f7084c81838222abb6942
-      internalID: 490107410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bubble chat-Idle_10
-      rect:
-        serializedVersion: 2
-        x: 2560
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 664625745488ebc4b981c9e1474ede4d
-      internalID: 586322576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bubble chat-Idle_11
-      rect:
-        serializedVersion: 2
-        x: 2816
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b114099df313e64babb14b196bbeb34
-      internalID: -1135844644
+      spriteID: 037b0a078e890cd4e90ce5006351d79b
+      internalID: -656774184
       vertices: []
       indices: 
       edges: []
@@ -398,18 +359,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bubble chat-Idle_0: 701113951
-      bubble chat-Idle_1: -126028935
-      bubble chat-Idle_10: 586322576
-      bubble chat-Idle_11: -1135844644
-      bubble chat-Idle_2: 1007634308
-      bubble chat-Idle_3: 378193731
-      bubble chat-Idle_4: -1201420122
-      bubble chat-Idle_5: -1691459348
-      bubble chat-Idle_6: -745111774
-      bubble chat-Idle_7: 37694478
-      bubble chat-Idle_8: -1667470117
-      bubble chat-Idle_9: 490107410
+      Next_0: 1105969453
+      Next_1: 1439412714
+      Next_10: -276976463
+      Next_11: -656774184
+      Next_2: 856828860
+      Next_3: 491507647
+      Next_4: -1807429738
+      Next_5: 2090643451
+      Next_6: 430170650
+      Next_7: 1728220225
+      Next_8: 1606449423
+      Next_9: -1425173011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
