@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1/L1 Scene 4MG.unity
     guid: 93c7de83a7d119945b03bd7c4dca2910
+  - enabled: 1
+    path: Assets/Scenes/Level 1/L1 Scene 5.unity
+    guid: 85f726184f63b2443b5187cc4def900d
   m_configObjects: {}

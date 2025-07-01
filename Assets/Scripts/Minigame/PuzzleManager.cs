@@ -4,10 +4,6 @@ public class PuzzleManager : MonoBehaviour
 {
     public TargetSlot[] slots;
     public GameObject successPanel;
-
-    public SceneDialogueTrigger dialogueTrigger; 
-    public SceneTransitionAfterDialogue sceneTransition; 
-
     private bool waitingForContinue = false;
 
     public void CheckWin()
@@ -26,6 +22,7 @@ public class PuzzleManager : MonoBehaviour
     void ShowSuccessUI()
     {
         successPanel.SetActive(true);
+        GameState.Instance.puzzleCompleted = true; 
         waitingForContinue = true;
     }
 
@@ -33,14 +30,8 @@ public class PuzzleManager : MonoBehaviour
     {
         if (waitingForContinue && Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("dialog");
-
-            successPanel.SetActive(false);
-
-            dialogueTrigger.autoStart = true; 
-
-            sceneTransition.enabled = true; 
-
+            Debug.Log("Spasi ditekan, menutup successPanel");
+            successPanel.SetActive(false); 
             waitingForContinue = false;
         }
     }
