@@ -30,7 +30,5 @@ MonoBehaviour:
     text: "\"Baiklah, Nek\u2026 tunggu aku ya. Aku akan membawa harapan ini kembali
       ke desa."
   options: []
-  requiredNPCs:
-  - {fileID: 11400000, guid: 9e7c4ce4f13d3f34992e86e14b740531, type: 2}
-  - {fileID: 11400000, guid: caef5951165dd9d4f9513283f5af13de, type: 2}
-  - {fileID: 11400000, guid: f7f21f9749767bd488559ef4055f0008, type: 2}
+  requiredNPCs: []
+  requirePuzzleCompleted: 1

@@ -9,9 +9,12 @@ public class DialogueSO : ScriptableObject
     [Header("Conditional Requirements")]
     public ActorSO[] requiredNPCs;
 
+    public bool requirePuzzleCompleted;  // tambah ini
+
     public bool IsCOnditionMet()
     {
-        if(requiredNPCs.Length > 0)
+        // Cek NPC dulu
+        if (requiredNPCs.Length > 0)
         {
             foreach (var npc in requiredNPCs)
             {
@@ -19,7 +22,15 @@ public class DialogueSO : ScriptableObject
                     return false;
             }
         }
-            return true;
+
+        // Cek puzzle
+        if (requirePuzzleCompleted)
+        {
+            if (GameState.Instance == null || !GameState.Instance.puzzleCompleted)
+                return false;
+        }
+
+        return true;
     }
 }
 
