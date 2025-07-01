@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
+  m_Name: Lvl 0S3 Teks Fadi
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Di.. kok meja-meja pameran disana pada kosong sih?
+  - speaker: {fileID: 11400000, guid: c2607fa4357df6d4fa8b46ec33f69ee9, type: 2}
+    text: Emang lagi perawatan aja kali..
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Tapi banyak banget, kalo gini rugi dong kita kesini gabisa liat apa-apa
+  - speaker: {fileID: 11400000, guid: c2607fa4357df6d4fa8b46ec33f69ee9, type: 2}
+    text: Mungkin sebentar lagi dibalikin kali sama staff-staff museumnya
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Temenin aku cari buku-buku informasi yuk. aku penasaran sama wujud dari
+      benda-benda yang ngga itu..
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Tiba-tiba kamu jadi tertarik banget nih ceritanya..
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Penasaran aja. hayu mau ngga?
+  - speaker: {fileID: 11400000, guid: c2607fa4357df6d4fa8b46ec33f69ee9, type: 2}
+    text: Sama Eca aja tu, aku masi mau liat guci-guci ini
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Yauda deh..
+  options: []
+  requiredNPCs: []

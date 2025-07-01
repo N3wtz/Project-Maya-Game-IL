@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
+  m_Name: L1S5
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: WAHAI PARA PENDUDUK SEKALIAN!!
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Aku tahu... kita semua telah melalui perjalanan yang melelahkan. Perbedaan
+      membuat kita curiga, membuat kita merasa harus memilih siapa yang benar, siapa
+      yang pantas.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Tapi lihatlah... setiap motif pada kain ini berbeda. Tak ada yang sama.
+      Dan justru itu yang membuatnya indah. Sama seperti kita.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Kerajaan ini bukan lemah karena berbeda\u2026 Tapi akan runtuh jika kita
+      tak belajar menghargai perbedaan"
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Aku tak ingin menghapus perbedaan di antara kita. Aku ingin menjahitnya
+      menyatukannya menjadi satu kain yang utuh.
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Batik ini\u2026 bukan sekadar kain. Ia adalah saksi bahwa kita bisa bersatu
+      tanpa harus menjadi sama."
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: "Dengan ini, aku mempersembahkan Batik Sekar Jagad\u2026 sebagai lambang
+      persatuan baru.\nKita mungkin berbeda, tapi kita tetap satu jiwa."
+  options: []
+  requiredNPCs: []

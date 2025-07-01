@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: Lvl 0 - Side - Text 11
   m_EditorClassIdentifier: 
   lines:
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: Perisai suku Dayak ini dibuat dari kayu ulin dan dihiasi motif roh penjaga.
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: Digunakan dalam ritual perang dan perlindungan spiritual.
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Tameng Dayaknya nggak ada?!
+    text: 'Tameng? '
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Apa ini kebetulan, atau memang ada yang mengambil barang-barang ini?
+    text: Barang sebesar itu gamungkin dicuri sih apalagi ilung begitu aja..
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Mungkin lagi dibersihin kali ya?
+  options: []
+  requiredNPCs: []

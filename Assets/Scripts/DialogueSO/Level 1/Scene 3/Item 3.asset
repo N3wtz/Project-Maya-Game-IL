@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: f7f21f9749767bd488559ef4055f0008, type: 2}
-    text: Tiga
+    text: ini dia kompornya, jadul sekali bentukannya..
   options: []
   requiredNPCs: []

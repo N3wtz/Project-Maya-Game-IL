@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Lvl 0 - Side - Text 7
   m_EditorClassIdentifier: 
   lines:
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: "Buletin Museum Budaya Nusantara \u2013 Edisi Khusus Bulan Ini"
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: Selamat datang di Museum Budaya Nusantara.
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+  - speaker: {fileID: 11400000, guid: b562812e753acfc4e89c888cf4787190, type: 2}
     text: 'Pada bulan ini, kami menampilkan koleksi eksklusif bertema:'
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: "\"Ritual dan Warisan Tak Kasat Mata\u201D"
@@ -40,3 +40,5 @@ MonoBehaviour:
     text: "Hmm\u2026 tunggu, mereka nyebut soal buku tua?"
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: Ini makin menarik.
+  options: []
+  requiredNPCs: []

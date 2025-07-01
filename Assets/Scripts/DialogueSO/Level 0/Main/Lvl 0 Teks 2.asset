@@ -26,3 +26,5 @@ MonoBehaviour:
     text: Emangnya aku anak kecil apa? Masa nyasar di tempat begini?
   - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
     text: Hehe, siapa tahu kan? Yaudah sana, hati-hati. Yuk, Di, kita ke sana.
+  options: []
+  requiredNPCs: []

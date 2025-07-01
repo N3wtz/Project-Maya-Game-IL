@@ -27,3 +27,5 @@ MonoBehaviour:
     text: Tapi kenapa ditaruh di sini, nggak di dalam etalase?
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: "Aku jadi makin penasaran\u2026 isinya tentang apa, ya?"
+  options: []
+  requiredNPCs: []
