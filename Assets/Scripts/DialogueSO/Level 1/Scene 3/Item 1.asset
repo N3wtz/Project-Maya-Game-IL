@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - speaker: {fileID: 11400000, guid: 9e7c4ce4f13d3f34992e86e14b740531, type: 2}
-    text: Satu
+    text: ini pasti canting yang nenek bilang
   options: []
   requiredNPCs: []

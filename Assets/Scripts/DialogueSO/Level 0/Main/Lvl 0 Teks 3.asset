@@ -20,7 +20,6 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: Hawanya aja ya?
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: "Jadi makin penasaran\u2026 sebenarnya ini tempat apa, sih?"
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: "Kalau nggak salah, biasanya museum itu punya buku panduan atau informasi
-      ya? Harusnya ada di sekitar sini nih\u2026"
+    text: "Jadi penasaran\u2026 sebenarnya ini benda-benda apa aja harusnya ada disini.."
+  options: []
+  requiredNPCs: []

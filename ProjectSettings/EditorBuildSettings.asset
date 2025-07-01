@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 1/L1 Scene 1 Tst.unity
     guid: 7104282e1169a3c4083b8371f3b78a83
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Cutscene.unity
+    guid: 0c9ef9d2c1b5bdf4f875a7b5c5489156
+  - enabled: 1
+    path: Assets/Scenes/Level 1/L1 Scene 4MG.unity
+    guid: 93c7de83a7d119945b03bd7c4dca2910
   m_configObjects: {}
