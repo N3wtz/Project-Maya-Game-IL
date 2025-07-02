@@ -8494,9 +8494,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRb: {fileID: 1521031966}
   mayaspriteRenderer: {fileID: 1521031967}
-  movespeed: 5
-  sprintMultiplier: 1.5
-  jumpForce: 10
+  movespeed: 3
+  sprintMultiplier: 2
+  jumpForce: 6
   groundCheck: {fileID: 605411413}
   groundCheckRadius: 0.2
   groundLayer:

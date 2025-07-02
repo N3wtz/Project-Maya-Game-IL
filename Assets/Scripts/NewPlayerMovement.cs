@@ -63,7 +63,6 @@ public class PlayerMovement : MonoBehaviour
         if (actualSpeed < 0.05f) actualSpeed = 0f;
 
         playerAnimator.SetFloat("xVelocity", actualSpeed);
-        playerAnimator.SetBool("isGrounded", isGrounded);
 
         // Kirim status sprint ke animator
         bool isSprinting = Input.GetKey(KeyCode.LeftShift) && horizontalInput != 0;
@@ -74,6 +73,8 @@ public class PlayerMovement : MonoBehaviour
     {
         // Cek apakah player menyentuh tanah
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        playerAnimator.SetBool("isGrounded", isGrounded);
+
 
         // Atur kecepatan saat sprint
         float currentSpeed = movespeed;
