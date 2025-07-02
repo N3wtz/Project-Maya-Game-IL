@@ -4720,7 +4720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mayaRb: {fileID: 754469667}
-  speed: 10
+  speed: 3
   spriteRenderer: {fileID: 754469668}
 --- !u!50 &754469667
 Rigidbody2D:
