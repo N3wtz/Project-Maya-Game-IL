@@ -349,7 +349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 2e5fd9389fa038a47bdb546f6b5a0324, type: 2}
+  m_Texture: {fileID: 8400000, guid: 4f370a8729bad5e4da73f66a6ba2e91d, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -390,11 +390,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158524763}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 81de0f8f51152424a9e6c5cbe7abebbc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 5e76e9246e2cc8446b5705ffce4f54c5, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 2e5fd9389fa038a47bdb546f6b5a0324, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 4f370a8729bad5e4da73f66a6ba2e91d, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77f831b4bfe72c48a2e67951250b08a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Cutscene2
+  sceneToLoad: L1 Scene 0
 --- !u!1 &2042001268
 GameObject:
   m_ObjectHideFlags: 0
