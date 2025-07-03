@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Parameter Lompat")]
     public float jumpForce = 10f;
     public Transform groundCheck;
-    public float groundCheckRadius = 0.2f;
+    public float groundCheckRadius = 0.05f;
     public LayerMask groundLayer;
 
     private float horizontalInput;
@@ -67,32 +67,52 @@ public class PlayerMovement : MonoBehaviour
         // Kirim status sprint ke animator
         bool isSprinting = Input.GetKey(KeyCode.LeftShift) && horizontalInput != 0;
         playerAnimator.SetBool("isRunning", isSprinting);
+
+        playerAnimator.SetFloat("yVelocity", playerRb.velocity.y);
+
     }
 
     void FixedUpdate()
     {
-        // Cek apakah player menyentuh tanah
+        // Cek apakah player menyentuh tanah (sekali saja di awal)
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        playerAnimator.SetBool("isGrounded", isGrounded);
 
-
-        // Atur kecepatan saat sprint
+        // Gerak horizontal
         float currentSpeed = movespeed;
         if (Input.GetKey(KeyCode.LeftShift))
         {
             currentSpeed *= sprintMultiplier;
         }
-
-        // Gerak horizontal
         playerRb.velocity = new Vector2(horizontalInput * currentSpeed, playerRb.velocity.y);
 
         // Jika lompat
         if (isJumping)
         {
             playerRb.velocity = new Vector2(playerRb.velocity.x, jumpForce);
+            isGrounded = false; // paksa false secara internal
             isJumping = false;
         }
+
+        // Update animator berdasarkan isGrounded (satu-satunya titik update)
+        playerAnimator.SetBool("isGrounded", isGrounded);
+
+        Debug.Log("isGrounded: " + isGrounded + " | velocityY: " + playerRb.velocity.y);
+
+        Collider2D groundCollider = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        isGrounded = groundCollider != null;
+        playerAnimator.SetBool("isGrounded", isGrounded);
+
+        if (groundCollider != null)
+        {
+            Debug.Log("Grounded with: " + groundCollider.name + " on layer: " + LayerMask.LayerToName(groundCollider.gameObject.layer));
+        }
+        else
+        {
+            Debug.Log("Not Grounded");
+        }
+
     }
+
 
     // Untuk visualisasi groundCheck di editor
     void OnDrawGizmosSelected()
@@ -103,4 +123,5 @@ public class PlayerMovement : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
+
 }
