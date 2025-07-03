@@ -424,6 +424,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 50370755389995512, guid: 4606251e2fd2eca438ed66738df060c9, type: 3}
+      propertyPath: footstepClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 11f8e12c9eb939e4abfe2ad19b5d2ea8, type: 3}
+    - target: {fileID: 1080291737864925715, guid: 4606251e2fd2eca438ed66738df060c9, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2514248255917178872, guid: 4606251e2fd2eca438ed66738df060c9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.6
