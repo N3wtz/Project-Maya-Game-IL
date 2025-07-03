@@ -221,7 +221,7 @@ MonoBehaviour:
   playerRb: {fileID: 3968527768621451935}
   mayaspriteRenderer: {fileID: 4013340671355985035}
   audioSource: {fileID: 1080291737864925715}
-  footstepClip: {fileID: 8300000, guid: 1a8f242edb978fe45bc6044410c98cb8, type: 3}
+  footstepClip: {fileID: 8300000, guid: 312b7e7cd2d98134d9ba2062ff5631c4, type: 3}
   jumpClip: {fileID: 0}
   landClip: {fileID: 0}
   movespeed: 3
@@ -244,7 +244,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
