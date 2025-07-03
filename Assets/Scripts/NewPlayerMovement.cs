@@ -1,12 +1,18 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Komponen")]
     public Rigidbody2D playerRb;
     public SpriteRenderer mayaspriteRenderer;
+    public AudioSource audioSource;
+
+    [Header("SFX")]
+    public AudioClip footstepClip;
+    public AudioClip jumpClip;
+    public AudioClip landClip;
 
     [Header("Parameter Gerakan")]
     public float movespeed = 5f;
@@ -26,11 +32,16 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerAnimator = GetComponent<Animator>();
+
+        // Auto-assign AudioSource jika belum di-assign dari Inspector
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
     }
 
     void Update()
     {
-        // Cek jika sedang dialog, maka tidak bisa bergerak
         if (DialogueManager.Instance != null && DialogueManager.Instance.isDialogueActive)
         {
             horizontalInput = 0;
@@ -39,16 +50,13 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        // Ambil input horizontal
         horizontalInput = Input.GetAxis("Horizontal");
 
-        // Cek input lompat
         if (Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
             isJumping = true;
         }
 
-        // Balik sprite sesuai arah
         if (horizontalInput < 0)
         {
             mayaspriteRenderer.flipX = true;
@@ -58,63 +66,63 @@ public class PlayerMovement : MonoBehaviour
             mayaspriteRenderer.flipX = false;
         }
 
-        // Kirim data ke Animator
         float actualSpeed = Mathf.Abs(playerRb.velocity.x);
         if (actualSpeed < 0.05f) actualSpeed = 0f;
 
         playerAnimator.SetFloat("xVelocity", actualSpeed);
 
-        // Kirim status sprint ke animator
         bool isSprinting = Input.GetKey(KeyCode.LeftShift) && horizontalInput != 0;
         playerAnimator.SetBool("isRunning", isSprinting);
 
         playerAnimator.SetFloat("yVelocity", playerRb.velocity.y);
-
     }
 
     void FixedUpdate()
     {
-        // Cek apakah player menyentuh tanah (sekali saja di awal)
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
-        // Gerak horizontal
-        float currentSpeed = movespeed;
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            currentSpeed *= sprintMultiplier;
-        }
+        float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? movespeed * sprintMultiplier : movespeed;
         playerRb.velocity = new Vector2(horizontalInput * currentSpeed, playerRb.velocity.y);
 
-        // Jika lompat
         if (isJumping)
         {
             playerRb.velocity = new Vector2(playerRb.velocity.x, jumpForce);
-            isGrounded = false; // paksa false secara internal
+            isGrounded = false;
             isJumping = false;
+
+            PlaySound("jump");
         }
 
-        // Update animator berdasarkan isGrounded (satu-satunya titik update)
         playerAnimator.SetBool("isGrounded", isGrounded);
-
-        Debug.Log("isGrounded: " + isGrounded + " | velocityY: " + playerRb.velocity.y);
-
-        Collider2D groundCollider = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        isGrounded = groundCollider != null;
-        playerAnimator.SetBool("isGrounded", isGrounded);
-
-        if (groundCollider != null)
-        {
-            Debug.Log("Grounded with: " + groundCollider.name + " on layer: " + LayerMask.LayerToName(groundCollider.gameObject.layer));
-        }
-        else
-        {
-            Debug.Log("Not Grounded");
-        }
-
     }
 
+    public void PlaySound(string clipName)
+    {
+        Debug.Log("Memainkan suara: " + clipName);
 
-    // Untuk visualisasi groundCheck di editor
+        if (audioSource == null) return;
+
+        switch (clipName)
+        {
+            case "footstep":
+                if (footstepClip != null)
+                {
+                    float pitch = Random.Range(0.5f, 1.25f); // variasi pitch lebih besar
+                    audioSource.pitch = pitch;
+                    Debug.Log("Footstep pitch: " + pitch);  // ? Ini debug log-nya
+                    audioSource.PlayOneShot(footstepClip);
+                    audioSource.pitch = 1f; // reset pitch agar tidak mempengaruhi suara lain
+                }
+                break;
+            case "jump":
+                if (jumpClip != null) audioSource.PlayOneShot(jumpClip);
+                break;
+            case "land":
+                if (landClip != null) audioSource.PlayOneShot(landClip);
+                break;
+        }
+    }
+
     void OnDrawGizmosSelected()
     {
         if (groundCheck != null)
@@ -123,5 +131,4 @@ public class PlayerMovement : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
-
 }

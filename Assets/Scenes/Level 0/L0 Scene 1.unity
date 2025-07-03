@@ -10972,7 +10972,6 @@ MonoBehaviour:
   FollowSpeed: 4
   target: {fileID: 1521031968}
   xOffset: 3
-  yOffset: 2.8
 --- !u!81 &2042001270
 AudioListener:
   m_ObjectHideFlags: 0
