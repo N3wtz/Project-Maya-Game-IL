@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Playables; // Tambahkan ini di bagian atas
+
 
 public class DialogueManager : MonoBehaviour
 {
@@ -22,6 +24,10 @@ public class DialogueManager : MonoBehaviour
     private bool isTyping = false;
     private bool skipTyping = false;
     public DialogueSO CurrentDialogue => currentDialogue;
+
+    [Header("Timeline Settings")]
+    public PlayableDirector timelineToPlay;
+
 
 
     [Header("Typing Settings")]
@@ -60,6 +66,7 @@ public class DialogueManager : MonoBehaviour
         isDialogueActive = true;
         ShowDialogue();
     }
+
 
     public void AdvanceDialogue()
     {
@@ -186,8 +193,17 @@ public class DialogueManager : MonoBehaviour
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
 
+        // MAIN: Jalankan timeline jika di-set
+        if (timelineToPlay != null)
+        {
+            timelineToPlay.Play();
+        }
+
         StartCoroutine(CooldownRoutine());
     }
+
+
+
 
     private void ClearChoices()
     {

@@ -9,12 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
-  m_Name: L1S5
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: L1S5Cutscene
   m_EditorClassIdentifier: 
-  lines:
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: WAHAI PARA PENDUDUK SEKALIAN!!
-  options: []
-  requiredNPCs: []
-  requirePuzzleCompleted: 0
+  m_Version: 0
+  m_Tracks: []
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
