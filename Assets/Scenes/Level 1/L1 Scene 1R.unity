@@ -19474,6 +19474,7 @@ MonoBehaviour:
   - {fileID: 130836528}
   - {fileID: 1283916035}
   isDialogueActive: 0
+  timelineToPlay: {fileID: 0}
   typingSpeed: 0.05
   cooldownAfterDialogue: 1
 --- !u!225 &1548938307
@@ -24310,6 +24311,10 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1080291737864925715, guid: 4606251e2fd2eca438ed66738df060c9, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 6127870163230732629, guid: e411c9bd06b6f104ea9fb648add4fb35, type: 2}
     - target: {fileID: 2514248255917178872, guid: 4606251e2fd2eca438ed66738df060c9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.53

@@ -1999,6 +1999,7 @@ MonoBehaviour:
   - {fileID: 529441065}
   - {fileID: 724884427}
   isDialogueActive: 0
+  timelineToPlay: {fileID: 0}
   typingSpeed: 0.05
   cooldownAfterDialogue: 1
 --- !u!114 &256825826
