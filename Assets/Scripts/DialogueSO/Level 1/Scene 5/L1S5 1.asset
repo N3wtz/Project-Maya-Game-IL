@@ -31,7 +31,7 @@ MonoBehaviour:
       tanpa harus menjadi sama."
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
     text: "Dengan ini, aku mempersembahkan Batik Sekar Jagad\u2026 sebagai lambang
-      persatuan baru.\nKita mungkin berbeda, tapi kita tetap satu jiwa."
+      persatuan baru. Kita mungkin berbeda, tapi kita tetap satu jiwa."
   options: []
   requiredNPCs:
   - {fileID: 11400000, guid: 7fa7f820f99e87c43a11bcaccccc980d, type: 2}

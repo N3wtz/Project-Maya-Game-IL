@@ -10,26 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92e37d844d45b8c4a88c0e3b15c12280, type: 3}
-  m_Name: Lvl 0 Teks 1
+  m_Name: Lvl 0 Teks 0
   m_EditorClassIdentifier: 
   lines:
-  - speaker: {fileID: 11400000, guid: c2607fa4357df6d4fa8b46ec33f69ee9, type: 2}
-    text: Wah, suasana tempat ini cukup khas ya, bikin penasaran.
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: "Hmm, ya wajar aja, ini kan bau barang-barang tua dan berkarat\u2026 "
-  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: Jadi pengen cepet-cepet pulang deh.
   - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
-    text: Baru juga nyampe, udah kehilangan mood duluan nih kayaknya.
-  - speaker: {fileID: 11400000, guid: c2607fa4357df6d4fa8b46ec33f69ee9, type: 2}
-    text: Namanya juga Maya. Dia memang nggak terlalu tertarik sama hal-hal begini.
-  - speaker: {fileID: 11400000, guid: c2607fa4357df6d4fa8b46ec33f69ee9, type: 2}
-    text: Biasanya juga sibuk dengerin musik atau main game di HP sama komputernya.
+    text: Akhirnya kita sampai juga ya!
   - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
-    text: Tapi coba deh lihat-lihat dulu, May. Siapa tahu ada sesuatu yang bisa bikin
-      kamu berubah pikiran.
+    text: Setelah melewati macet panjang di angkot yang panas tadi..
+  - speaker: {fileID: 11400000, guid: c2607fa4357df6d4fa8b46ec33f69ee9, type: 2}
+    text: iya nih kalo bukan gara-gara satu orang yang telat ini kita bisa berangkat
+      lebih pagi buat hindarin macet
   - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
-    text: "Iya deh\u2026 yuk, kita jalan-jalan dulu.  "
+    text: iya iya maaf..
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: 'seenggaknya aku udah mau ikut loh.. '
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: padahal aku mager buat dateng ke tempat ginian
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: abis minta maaf malah ngeluh kamu may..
+  - speaker: {fileID: 11400000, guid: 8c99c035010903f42b0ff50d1bf10cf9, type: 2}
+    text: Yauda deh kita langsung masuk aja
+  - speaker: {fileID: 11400000, guid: 1e1add5729b111643b38f5a65bbfb790, type: 2}
+    text: Ayo..
   options:
   - optionText: Okey
     nextDialogue: {fileID: 0}

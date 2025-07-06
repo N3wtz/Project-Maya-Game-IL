@@ -37,7 +37,7 @@ public class MenuManager : MonoBehaviour
     // Mulai game (ke Level 1)
     public void StartGame()
     {
-        SceneManager.LoadScene("L0 Scene 1");  // Pastikan nama scene sama persis di Build Settings
+        SceneManager.LoadScene("L0 Scene 0");  // Pastikan nama scene sama persis di Build Settings
     }
 
     // Keluar game
